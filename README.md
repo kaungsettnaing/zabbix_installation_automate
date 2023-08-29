@@ -1,2 +1,4 @@
 # zabbix
 Zabbix installation
+
+# Thanks
