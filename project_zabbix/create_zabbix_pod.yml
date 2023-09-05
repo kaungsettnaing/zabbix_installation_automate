@@ -1,3 +1,7 @@
+- name: Install podman package
+  ansible.builtin.dnf:
+    name: podman
+    state: present
 - name: Create Zabbix Pod
   containers.podman.podman_pod:
     name: "{{ pod_name }}"
